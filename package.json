@@ -5,7 +5,7 @@
   "main": "console-with-location.js",
   "type": "module",
   "keywords": ["node","console", "log", "debug", "color", "caller", "stack","file","location","filename"],
-  "author": "Your Name [https://github.com/zocky]",
+  "author": "Zoran Obradović [https://github.com/zocky]",
   "license": "MIT",
   "repository": {
     "type": "git",
