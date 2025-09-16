@@ -1,10 +1,21 @@
 {
   "name": "console-with-location",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Drop-in console patch for nodejs that adds color and caller filename to every log line",
   "main": "console-with-location.js",
   "type": "module",
-  "keywords": ["node","console", "log", "debug", "color", "caller", "stack","file","location","filename"],
+  "keywords": [
+    "node",
+    "console",
+    "log",
+    "debug",
+    "color",
+    "caller",
+    "stack",
+    "file",
+    "location",
+    "filename"
+  ],
   "author": "Zoran Obradović [https://github.com/zocky]",
   "license": "MIT",
   "repository": {
