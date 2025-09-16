@@ -96,7 +96,12 @@ function writeCallerInfo(skip = 3) {
   let callerInfo = 'Unknown';
   if (match) {
     const fileUrl = match[1];
-    const filePath = fileURLToPath(fileUrl);
+    let filePath;
+    try {
+      filePath = fileURLToPath(fileUrl);
+    } catch (e) {
+      filePath = fileUrl;
+    }
     const line = match[2];
     callerInfo = `${filePath}:${line}`;
   }
